@@ -9,3 +9,9 @@ cv::Mat invertImageColors(cv::Mat image);
 cv::Mat addBackgroundInsteadOfBlackPixels(cv::Mat object, cv::Mat background);
 
 cv::Mat addBackgroundInsteadOfBlackPixelsLargeBackground(cv::Mat object, cv::Mat largeBackground);
+
+cv::Mat addManyObjectOnLargeBackground(cv::Mat object, cv::Mat largeBackground, int n);
+
+cv::Mat addBigObjectOnLargeBackground(cv::Mat object, cv::Mat largeBackground);
+
+cv::Mat makeAllBlackPixelsRandom(cv::Mat image);
